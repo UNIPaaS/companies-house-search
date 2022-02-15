@@ -1,6 +1,6 @@
 {
-  "name": "@unipaas/companies-house-search",
-  "version": "0.0.1",
+  "name": "@unipaas-payments/companies-house-search",
+  "version": "0.0.0",
   "author": "Ron Mizrahi <ron.mizrahi@unipaas.com>",
   "description": "Business search web component for Companies House API",
   "main": "dist/index.cjs.js",
@@ -20,10 +20,11 @@
     "url": "git+https://github.com/UNIPaaS/companies-house-search.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
+    "registry": "https://registry.npmjs.com/",
     "access": "public"
   },
   "scripts": {
+    "prepublish": "yarn build",
     "build": "stencil build --docs",
     "dev": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",

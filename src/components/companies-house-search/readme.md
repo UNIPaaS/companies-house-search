@@ -2,13 +2,23 @@
 
 <!-- Auto Generated Below -->
 
+
 ## Properties
 
-| Property    | Attribute   | Description | Type     | Default     |
-| ----------- | ----------- | ----------- | -------- | ----------- |
-| `['token']` | `['token']` |             | `string` | `undefined` |
-| `debounce`  | `debounce`  |             | `number` | `600`       |
+| Property      | Attribute     | Description | Type     | Default       |
+| ------------- | ------------- | ----------- | -------- | ------------- |
+| `debounce`    | `debounce`    |             | `number` | `600`         |
+| `placeholder` | `placeholder` |             | `string` | `'Search...'` |
+| `token`       | `token`       |             | `string` | `''`          |
 
----
 
-_Built with [StencilJS](https://stenciljs.com/)_
+## Events
+
+| Event              | Description | Type               |
+| ------------------ | ----------- | ------------------ |
+| `businessSelected` |             | `CustomEvent<any>` |
+
+
+----------------------------------------------
+
+*Built with [StencilJS](https://stenciljs.com/)*
