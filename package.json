@@ -19,10 +19,6 @@
     "type": "git",
     "url": "git+https://github.com/UNIPaaS/companies-house-search.git"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com/",
-    "access": "public"
-  },
   "scripts": {
     "prepublish": "yarn build",
     "build": "stencil build --docs",
