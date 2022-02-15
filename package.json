@@ -1,0 +1,44 @@
+{
+  "name": "@unipaas/companies-house-search",
+  "version": "0.0.1",
+  "author": "Ron Mizrahi <ron.mizrahi@unipaas.com>",
+  "description": "Business search web component for Companies House API",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/companies-house-component/companies-house-component.esm.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UNIPaaS/companies-house-search.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "stencil build --docs",
+    "dev": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "dependencies": {
+    "@stencil/core": "^2.13.0",
+    "lodash.debounce": "^4.0.8"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5",
+    "puppeteer": "^10.0.0"
+  },
+  "license": "MIT"
+}
