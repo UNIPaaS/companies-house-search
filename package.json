@@ -1,5 +1,5 @@
 {
-  "name": "@unipaas-payments/companies-house-search",
+  "name": "@unipaas/companies-house-search",
   "version": "0.0.0",
   "author": "Ron Mizrahi <ron.mizrahi@unipaas.com>",
   "description": "Business search web component for Companies House API",
