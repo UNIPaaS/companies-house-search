@@ -1,4 +1,6 @@
-# my-component
+# companies-house-search
+
+
 
 <!-- Auto Generated Below -->
 

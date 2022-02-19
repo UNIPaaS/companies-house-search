@@ -1,7 +1,6 @@
 dist/
 www/
 loader/
-node-modules/
 
 *~
 *.sw[mnpcod]
