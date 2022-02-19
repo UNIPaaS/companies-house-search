@@ -14,7 +14,7 @@ yarn add @unipaas/companies-house-component
 #### NPM
 
 ```
-npm install --save @unipaas-companies-house-component
+npm install --save @unipaas/companies-house-component
 ```
 
 ## How to get an API Token
